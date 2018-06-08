@@ -1,15 +1,18 @@
 What happens when you initialize a repository? Why do you need to do it?
-
+The answer is when we initialize a git repo using git init it will create a empty repo with .git as directory. We need to do it because it will initialize the repo and then we can make changes to it easily and can track the repo easily.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+The answer is staging area is very different from both working directory and repository in the sense that in working directory we have our untracked file and git add command is used to add these files to staging area and purpose is that if user wants to change some data before commit it repo and also another purpose is staging area binds these files 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+ans :  We can use staging area to make sure one commit per logical change by working concurently with working directory easily and then    change or fix the bug in working directory and add it staging area and then commit it to repo
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+ans : Branches can be really helpful it will help in making changes to copy of master branch that i needed to apply to code so that it can work as i wanted 
 How do the diagrams help you visualize the branch structure?
+ans:  yes diagrams helps us in visualizing the branch structure to check whether a branch commit can really change the whole branch or not
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
